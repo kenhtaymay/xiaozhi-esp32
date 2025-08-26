@@ -1,0 +1,16 @@
+{
+  "name": "XiaoZhi (KenhTayMay's build)",
+  "version": "1.8.9",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/xiaozhi-esp32-ili9341.bin", "offset": 0 }
+      ],
+      "flashMode": "dio",
+      "flashFreq": "40m",
+      "flashSize": "4MB",
+      "baudRate": 460800
+    }
+  ]
+}
