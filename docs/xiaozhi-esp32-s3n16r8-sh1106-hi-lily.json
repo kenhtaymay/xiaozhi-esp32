@@ -1,0 +1,16 @@
+{
+  "name": "XiaoZhi (KenhTayMay's build)",
+  "version": "1.8.9",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/xiaozhi-esp32-s3n16r8-sh1106-hi-lily.bin", "offset": 0 }
+      ],
+      "flashMode": "dio",
+      "flashFreq": "80m",
+      "flashSize": "16MB",
+      "baudRate": 460800
+    }
+  ]
+}
