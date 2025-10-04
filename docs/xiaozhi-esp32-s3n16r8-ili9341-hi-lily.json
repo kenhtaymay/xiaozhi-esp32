@@ -1,6 +1,6 @@
 {
   "name": "XiaoZhi (KenhTayMay's build)",
-  "version": "1.8.9",
+  "version": "2.0.3",
   "builds": [
     {
       "chipFamily": "ESP32-S3",
@@ -13,4 +13,5 @@
       "baudRate": 460800
     }
   ]
+
 }
