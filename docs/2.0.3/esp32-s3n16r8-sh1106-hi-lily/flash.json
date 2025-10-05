@@ -1,0 +1,21 @@
+{
+  "name": "XiaoZhi (KenhTayMay's build)",
+  "version": "2.0.3",
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "parts": [
+        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/bootloader.bin", "offset": 0x0 },
+        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/xiaozhi.bin", "offset": 0x20000 },
+        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/partition-table.bin", "offset": 0x8000 },
+        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/ota_data_initial.bin", "offset": 0xd000 },
+        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/generated_assets.bin", "offset": 0x800000 }
+      ],
+      "flashMode": "dio",
+      "flashFreq": "80m",
+      "flashSize": "16MB",
+      "baudRate": 460800
+    }
+  ]
+
+}
