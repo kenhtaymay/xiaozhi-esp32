@@ -5,11 +5,7 @@
     {
       "chipFamily": "ESP32-S3",
       "parts": [
-        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/bootloader.bin", "offset": 0 },
-        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/xiaozhi.bin", "offset": 131072 },
-        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/partition-table.bin", "offset": 32768 },
-        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/ota_data_initial.bin", "offset": 53248 },
-        { "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/esp32-s3n16r8-sh1106-hi-lily/generated_assets.txt", "offset": 8388608 }
+        { "path": "https://sweet-breeze-c1d8.tin-daf.workers.dev/", "offset": 0 }
       ],
       "flashMode": "dio",
       "flashFreq": "80m",
