@@ -1,0 +1,16 @@
+{
+"name": "XiaoZhi (KenhTayMay's build)",
+"version": "2.0.3",
+"builds": [
+    {
+"chipFamily": "ESP32-S3",
+"parts": [
+{ "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.3/xiaozhi-music-esp32-s3-4MB-st7735-hi-lily.bin", "offset": 0 }
+      ],
+"flashMode": "dio",
+"flashFreq": "80m",
+"flashSize": "4MB",
+"baudRate": 115200
+    }
+  ]
+}
