@@ -1,0 +1,16 @@
+{
+"name": "XiaoZhi (KenhTayMay's build)",
+"version": "2.0.5",
+"builds": [
+    {
+"chipFamily": "ESP32-S3",
+"parts": [
+{ "path": "https://kenhtaymay.github.io/xiaozhi-esp32/2.0.5/xiaozhi-esp32-s3-8MB-loadcell-ili9341-l-320x240-hi-lily.bin", "offset": 0 }
+      ],
+"flashMode": "dio",
+"flashFreq": "80m",
+"flashSize": "8MB",
+"baudRate": 115200
+    }
+  ]
+}
